@@ -42,15 +42,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/quest" />
 
-    <ImageView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/imageWaves"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="-5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Top_background"
-        app:srcCompat="@drawable/background" />
+        android:background="@drawable/background" ></androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:id="@+id/layout_email"
